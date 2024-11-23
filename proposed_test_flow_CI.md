@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph LR
     A(Start) --> B(Initialization and Power-On Testing)
     B --> C{Is Initialization Successful?}
     C -->|Yes| D(Functional Testing)
