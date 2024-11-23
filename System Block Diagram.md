@@ -1,3 +1,4 @@
+```mermaid 
 graph TB
     A(Fielded System) --> B(Control Interface)
     B --> C(Upgraded Sensor Unit)
