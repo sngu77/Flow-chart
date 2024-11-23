@@ -5,7 +5,6 @@ graph LR
     C -->|Yes| D(Functional Testing)
     C -->|No| X(Report and Fix Issues)
     D --> E(Environmental Testing)
-    H(Power Management) 
     E --> F(Calibration Testing)
     F --> G(Communication and Integration Testing)
     G --> H(Performance and Accuracy Testing)
@@ -14,4 +13,4 @@ graph LR
     J --> K(Field Testing)
     K --> L(Final Validation and Certification)
     L --> M(End)
-    M
+
