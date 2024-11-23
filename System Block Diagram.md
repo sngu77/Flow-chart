@@ -1,9 +1,15 @@
-```mermaid 
-graph TB
-    A(Fielded System) --> B(Control Interface)
-    B --> C(Upgraded Sensor Unit)
-    C --> D(Power Supply Interface)
-    C --> E(Data Processing Unit)
-    E --> F(Communication Module)
-    F --> G(External Systems)
-    E --> H(User Interface)
+```mermaid
+graph TD
+    A(Sensor) --> B(Signal Conditioning)
+    B --> C(Analog-to-Digital Converter)
+    C --> D(Microcontroller/Processor)
+    D --> E(Memory)
+    D --> F(Communication Interface)
+    D --> G(Output/Display)
+    H(Power Management) --> A
+    H --> B
+    H --> C
+    H --> D
+    H --> E
+    H --> F
+    H --> G
