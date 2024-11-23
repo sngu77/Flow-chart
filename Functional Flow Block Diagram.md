@@ -1,13 +1,13 @@
 ```mermaid 
 graph TD
-    A(Start System) --> B(Sensor Activation)
-    B --> C(Data Acquisition)
-    C --> D(Data Filtering)
-    D --> E(Data Analysis)
-    E --> F{Validate Data}
-    F --> |Valid| G(Trigger Action)
-    F --> |Invalid| C
-    G --> H(Log Results)
-    H --> I(End System)
-
+    A(Start) --> B(Initialize Sensor)
+    B --> C(Sense Environment)
+    C --> D(Condition Signal)
+    D --> E{Is Signal Valid?}
+    E --> |Yes| F(Convert Signal to Digital Format)
+    E --> |No| G(Trigger Error Handling)
+    F --> H(Process Signal Data)
+    H --> I(Store or Transmit Data)
+    I --> J(Generate Output/Response)
+    J --> K(End)
 
