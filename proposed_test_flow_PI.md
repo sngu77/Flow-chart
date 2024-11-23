@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph LR
     A(Start) --> B(Protocol Compatibility Testing)
     B --> C{Are Protocols Compatible?}
     C -->|Yes| D(Data Transmission Validation)
